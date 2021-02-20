@@ -13,8 +13,9 @@ class WelcomePage extends StatelessWidget {
       body:
       Container(
         decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Color.fromRGBO(217, 179, 140, 1),Color.fromRGBO(235, 217, 198, 1)],
+            image: DecorationImage(
+              image: AssetImage('assets/background.jpg'),
+              fit: BoxFit.cover,
             )
         ),
         child: Column(
